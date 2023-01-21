@@ -24,7 +24,7 @@ const httpServer = http.createServer(app);
 
 const io = new Server(httpServer, {
   cors: {
-    origin: "http://localhost:3000", // this should be updated during production
+    origin: "https://mern-social-frontend.pages.dev/",
     methods: ["GET", "POST", "PATCH", "DELETE"],
   },
 });
